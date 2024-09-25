@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-image: url(https://cdn.pixabay.com/photo/2023/05/24/05/06/dog-8014047_1280.jpg);
+            height: 850px;
+            width: 100%;
+            background-color: rgb(38, 141, 169);
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-size: cover;
+        }   
+    </style>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 1024px)" srcset="https://cdn.pixabay.com/photo/2024/03/15/17/50/dogs-8635461_640.jpg">
+        <source media="(min-width: 1280px)" srcset="https://cdn.pixabay.com/photo/2023/10/24/05/08/dog-8337394_960_720.jpg">
+        <img src="https://cdn.pixabay.com/photo/2023/04/28/14/35/dog-7956828_1280.jpg" alt="">
+    </picture>
+    <div></div>
+</body>
+</html>
